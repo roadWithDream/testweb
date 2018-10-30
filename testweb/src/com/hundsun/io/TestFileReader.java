@@ -2,7 +2,8 @@ package com.hundsun.io;
 
 import java.io.*;
 public class TestFileReader {
-  public static void main(String[] args) {
+  @SuppressWarnings("unused")
+public static void main(String[] args) {
     FileReader fr = null; 
     int c = 0;
     try {

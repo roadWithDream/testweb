@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ServletURL
  */
+@SuppressWarnings("serial")
 public class ServletURL extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
