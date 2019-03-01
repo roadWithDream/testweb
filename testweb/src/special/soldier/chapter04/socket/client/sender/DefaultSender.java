@@ -1,15 +1,15 @@
-package chapter04.socket.client.sender;
+package special.soldier.chapter04.socket.client.sender;
 
-import static chapter04.socket.Commons.ERROR_MESSAGE_FORMAT;
-import static chapter04.socket.Commons.EXIT_STR;
-import static chapter04.socket.Commons.HELP_SHOW;
-import static chapter04.socket.Commons.HELP_STR;
-import static chapter04.socket.Commons.println;
+import static special.soldier.chapter04.socket.Commons.ERROR_MESSAGE_FORMAT;
+import static special.soldier.chapter04.socket.Commons.EXIT_STR;
+import static special.soldier.chapter04.socket.Commons.HELP_SHOW;
+import static special.soldier.chapter04.socket.Commons.HELP_STR;
+import static special.soldier.chapter04.socket.Commons.println;
 
 import java.io.IOException;
 
-import chapter04.socket.SocketWrapper;
-import chapter04.socket.client.exceptions.ExitException;
+import special.soldier.chapter04.socket.SocketWrapper;
+import special.soldier.chapter04.socket.client.exceptions.ExitException;
 
 public class DefaultSender implements Sendable {
 	

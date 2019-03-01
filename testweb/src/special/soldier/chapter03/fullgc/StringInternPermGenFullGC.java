@@ -1,4 +1,4 @@
-package chapter03.fullgc;
+package special.soldier.chapter03.fullgc;
 
 
 

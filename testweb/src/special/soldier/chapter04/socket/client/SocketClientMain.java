@@ -1,4 +1,4 @@
-package chapter04.socket.client;
+package special.soldier.chapter04.socket.client;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

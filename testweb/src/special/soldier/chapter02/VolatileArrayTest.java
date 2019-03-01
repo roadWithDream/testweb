@@ -1,4 +1,4 @@
-package chapter02;
+package special.soldier.chapter02;
 
 class VolatileInteger {
 	volatile int number;

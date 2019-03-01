@@ -1,4 +1,4 @@
-package chapter02.samplesocket;
+package special.soldier.chapter02.samplesocket;
 
 import java.io.IOException;
 import java.net.ServerSocket;

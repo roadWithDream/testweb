@@ -1,15 +1,15 @@
-package chapter04.socket.server;
+package special.soldier.chapter04.socket.server;
 
-import static chapter04.socket.Commons.DEFAULT_BUFFER_LENGTH;
-import static chapter04.socket.Commons.DEFAULT_MESSAGE_CHARSET;
-import static chapter04.socket.Commons.GET_FILE;
-import static chapter04.socket.Commons.SEND_B_FILE;
-import static chapter04.socket.Commons.SEND_FILE;
-import static chapter04.socket.Commons.SEND_MESSAGE;
-import static chapter04.socket.Commons.SERVER_SAVE_BASE_PATH;
-import static chapter04.socket.Commons.closeStream;
-import static chapter04.socket.Commons.logInfo;
-import static chapter04.socket.Commons.print;
+import static special.soldier.chapter04.socket.Commons.DEFAULT_BUFFER_LENGTH;
+import static special.soldier.chapter04.socket.Commons.DEFAULT_MESSAGE_CHARSET;
+import static special.soldier.chapter04.socket.Commons.GET_FILE;
+import static special.soldier.chapter04.socket.Commons.SEND_B_FILE;
+import static special.soldier.chapter04.socket.Commons.SEND_FILE;
+import static special.soldier.chapter04.socket.Commons.SEND_MESSAGE;
+import static special.soldier.chapter04.socket.Commons.SERVER_SAVE_BASE_PATH;
+import static special.soldier.chapter04.socket.Commons.closeStream;
+import static special.soldier.chapter04.socket.Commons.logInfo;
+import static special.soldier.chapter04.socket.Commons.print;
 
 import java.io.EOFException;
 import java.io.File;
@@ -19,10 +19,10 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.SocketException;
 
-import chapter04.socket.Commons;
-import chapter04.socket.SocketWrapper;
-import chapter04.socket.client.exceptions.DownloadNotExistsFileException;
-import chapter04.socket.client.exceptions.SaveExistsFileException;
+import special.soldier.chapter04.socket.Commons;
+import special.soldier.chapter04.socket.SocketWrapper;
+import special.soldier.chapter04.socket.client.exceptions.DownloadNotExistsFileException;
+import special.soldier.chapter04.socket.client.exceptions.SaveExistsFileException;
 
 public class Worker extends Thread {
 

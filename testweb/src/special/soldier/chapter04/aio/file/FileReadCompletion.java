@@ -1,4 +1,4 @@
-package chapter04.aio.file;
+package special.soldier.chapter04.aio.file;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -6,7 +6,7 @@ import java.nio.channels.AsynchronousFileChannel;
 import java.nio.channels.CompletionHandler;
 import java.nio.channels.FileChannel;
 
-import static chapter04.socket.Commons.*;
+import static special.soldier.chapter04.socket.Commons.*;
 
 public class FileReadCompletion implements
 		CompletionHandler<Integer, FileChannel> {

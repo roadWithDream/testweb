@@ -1,4 +1,4 @@
-package chapter03.asm;
+package special.soldier.chapter03.asm;
 
 import java.net.URLClassLoader;
 

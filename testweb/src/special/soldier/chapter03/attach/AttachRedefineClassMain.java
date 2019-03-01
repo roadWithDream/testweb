@@ -1,4 +1,4 @@
-package chapter03.attach;
+package special.soldier.chapter03.attach;
 
 import java.io.IOException;
 import java.lang.instrument.UnmodifiableClassException;
@@ -8,7 +8,7 @@ import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.CtMethod;
 import javassist.NotFoundException;
-import chapter03.asm.ForASMTestClass;
+import special.soldier.chapter03.asm.ForASMTestClass;
 
 public class AttachRedefineClassMain {
 

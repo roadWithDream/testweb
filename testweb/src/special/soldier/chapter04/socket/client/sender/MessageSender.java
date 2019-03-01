@@ -1,10 +1,10 @@
-package chapter04.socket.client.sender;
+package special.soldier.chapter04.socket.client.sender;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
-import chapter04.socket.SocketWrapper;
-import static chapter04.socket.Commons.*;
+import special.soldier.chapter04.socket.SocketWrapper;
+import static special.soldier.chapter04.socket.Commons.*;
 
 public class MessageSender implements Sendable {
 	

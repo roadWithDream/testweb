@@ -1,4 +1,4 @@
-package chapter04.socket.client.exceptions;
+package special.soldier.chapter04.socket.client.exceptions;
 
 public class SaveExistsFileException extends RuntimeException {
 

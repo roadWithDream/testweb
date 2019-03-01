@@ -1,4 +1,4 @@
-package chapter03.inst.redefineclass;
+package special.soldier.chapter03.inst.redefineclass;
 
 import java.lang.instrument.ClassDefinition;
 import java.lang.instrument.Instrumentation;

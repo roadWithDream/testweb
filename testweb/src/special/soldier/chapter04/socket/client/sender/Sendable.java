@@ -1,8 +1,8 @@
-package chapter04.socket.client.sender;
+package special.soldier.chapter04.socket.client.sender;
 
 import java.io.IOException;
 
-import chapter04.socket.SocketWrapper;
+import special.soldier.chapter04.socket.SocketWrapper;
 
 public interface Sendable {
 	

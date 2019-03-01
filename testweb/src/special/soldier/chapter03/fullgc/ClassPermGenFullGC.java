@@ -1,4 +1,4 @@
-package chapter03.fullgc;
+package special.soldier.chapter03.fullgc;
 
 import java.lang.reflect.Method;
 import java.net.URLClassLoader;

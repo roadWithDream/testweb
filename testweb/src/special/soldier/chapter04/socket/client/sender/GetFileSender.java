@@ -1,13 +1,13 @@
-package chapter04.socket.client.sender;
+package special.soldier.chapter04.socket.client.sender;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import chapter04.socket.SocketWrapper;
-import chapter04.socket.client.exceptions.DirectNotExistsException;
+import special.soldier.chapter04.socket.SocketWrapper;
+import special.soldier.chapter04.socket.client.exceptions.DirectNotExistsException;
 
-import static chapter04.socket.Commons.*;
+import static special.soldier.chapter04.socket.Commons.*;
 /**
  * 这里为下载文件的请求类
  * @author Administrator

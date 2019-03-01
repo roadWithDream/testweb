@@ -1,4 +1,4 @@
-package chapter04.socket;
+package special.soldier.chapter04.socket;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -9,14 +9,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import sun.reflect.Reflection;
-import chapter04.socket.client.component.CharsetByteRelative;
-import chapter04.socket.client.sender.BFileSender;
-import chapter04.socket.client.sender.DefaultSender;
-import chapter04.socket.client.sender.FileSender;
-import chapter04.socket.client.sender.GetFileSender;
-import chapter04.socket.client.sender.MessageSender;
-import chapter04.socket.client.sender.Sendable;
+//import sun.reflect.Reflection;
+import special.soldier.chapter04.socket.client.component.CharsetByteRelative;
+import special.soldier.chapter04.socket.client.sender.BFileSender;
+import special.soldier.chapter04.socket.client.sender.DefaultSender;
+import special.soldier.chapter04.socket.client.sender.FileSender;
+import special.soldier.chapter04.socket.client.sender.GetFileSender;
+import special.soldier.chapter04.socket.client.sender.MessageSender;
+import special.soldier.chapter04.socket.client.sender.Sendable;
 
 public class Commons {
 	
@@ -88,9 +88,9 @@ public class Commons {
 	}
 	
 	public static void logInfo(String message) {
-		Class <?>clazz = Reflection.getCallerClass();
+	//	Class <?>clazz = Reflection.getCallerClass();
 		String date = DATE_FORMAT_OBJECT.format(Calendar.getInstance().getTime());
-		println(date + " [] INFO " + clazz.getName() + " - " + message);
+	//	println(date + " [] INFO " + clazz.getName() + " - " + message);
 	}
 	
 	public static void closeStream(Closeable closeable) {

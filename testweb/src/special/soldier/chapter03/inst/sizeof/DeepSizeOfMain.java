@@ -1,4 +1,4 @@
-package chapter03.inst.sizeof;
+package special.soldier.chapter03.inst.sizeof;
 
 public class DeepSizeOfMain {
 

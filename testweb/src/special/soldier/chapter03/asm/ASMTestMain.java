@@ -1,4 +1,4 @@
-package chapter03.asm;
+package special.soldier.chapter03.asm;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;

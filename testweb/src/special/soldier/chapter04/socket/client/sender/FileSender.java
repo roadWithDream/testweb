@@ -1,12 +1,12 @@
-package chapter04.socket.client.sender;
+package special.soldier.chapter04.socket.client.sender;
 
-import static chapter04.socket.Commons.CHARSET_START;
-import static chapter04.socket.Commons.SEND_FILE;
+import static special.soldier.chapter04.socket.Commons.CHARSET_START;
+import static special.soldier.chapter04.socket.Commons.SEND_FILE;
 
 import java.io.IOException;
 
-import chapter04.socket.Commons;
-import chapter04.socket.SocketWrapper;
+import special.soldier.chapter04.socket.Commons;
+import special.soldier.chapter04.socket.SocketWrapper;
 
 public class FileSender extends BFileSender {
 

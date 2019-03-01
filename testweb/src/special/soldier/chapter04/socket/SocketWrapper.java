@@ -1,4 +1,4 @@
-package chapter04.socket;
+package special.soldier.chapter04.socket;
 
 import java.io.Closeable;
 import java.io.DataInputStream;
@@ -10,7 +10,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketException;
 
-import static chapter04.socket.Commons.*;
+import static special.soldier.chapter04.socket.Commons.*;
 
 
 public class SocketWrapper implements Closeable {

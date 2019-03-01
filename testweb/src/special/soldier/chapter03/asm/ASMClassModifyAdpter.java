@@ -1,4 +1,4 @@
-package chapter03.asm;
+package special.soldier.chapter03.asm;
 
 import org.objectweb.asm.ClassAdapter;
 import org.objectweb.asm.ClassVisitor;

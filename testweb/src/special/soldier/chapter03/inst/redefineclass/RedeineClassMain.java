@@ -1,4 +1,4 @@
-package chapter03.inst.redefineclass;
+package special.soldier.chapter03.inst.redefineclass;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.CtMethod;
 import javassist.NotFoundException;
-import chapter03.asm.ForASMTestClass;
+import special.soldier.chapter03.asm.ForASMTestClass;
 
 public class RedeineClassMain {
 

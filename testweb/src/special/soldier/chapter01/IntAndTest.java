@@ -1,4 +1,4 @@
-package chapter01;
+package special.soldier.chapter01;
 
 public class IntAndTest {
 

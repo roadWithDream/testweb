@@ -20,7 +20,7 @@ public class AutoBoxReflect {
 		AutoBoxReflect test = new AutoBoxReflect();
 		Field field1 = AutoBoxReflect.class.getDeclaredField("a");
 		Field field2 = AutoBoxReflect.class.getDeclaredField("b");
-
+		System.out.println(field1.getClass().getResource("").getPath());
 		field1.set(test, 100);
 		System.out.println(field1.get(test));
 		System.out.println(field1.getInt(test));

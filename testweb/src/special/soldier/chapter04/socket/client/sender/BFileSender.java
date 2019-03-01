@@ -1,14 +1,14 @@
-package chapter04.socket.client.sender;
+package special.soldier.chapter04.socket.client.sender;
 
-import static chapter04.socket.Commons.DEFAULT_MESSAGE_CHARSET;
-import static chapter04.socket.Commons.SEND_B_FILE;
-import static chapter04.socket.Commons.println;
+import static special.soldier.chapter04.socket.Commons.DEFAULT_MESSAGE_CHARSET;
+import static special.soldier.chapter04.socket.Commons.SEND_B_FILE;
+import static special.soldier.chapter04.socket.Commons.println;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import chapter04.socket.SocketWrapper;
+import special.soldier.chapter04.socket.SocketWrapper;
 
 /**
  * 这里为二进制文件发送的类

@@ -1,4 +1,4 @@
-package chapter04.socket.server;
+package special.soldier.chapter04.socket.server;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,8 +6,8 @@ import java.net.ServerSocket;
 import java.util.ArrayList;
 import java.util.List;
 
-import static chapter04.socket.Commons.*;
-import chapter04.socket.SocketWrapper;
+import static special.soldier.chapter04.socket.Commons.*;
+import special.soldier.chapter04.socket.SocketWrapper;
 
 public class SocketServerMain {
 	

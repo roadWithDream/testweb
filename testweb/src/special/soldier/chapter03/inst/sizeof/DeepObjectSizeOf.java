@@ -1,4 +1,4 @@
-package chapter03.inst.sizeof;
+package special.soldier.chapter03.inst.sizeof;
 
 import java.lang.instrument.Instrumentation;
 import java.lang.reflect.Array;
